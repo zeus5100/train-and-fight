@@ -22,8 +22,9 @@
 			<form action="rejestracjado.php" method="post">
 				<div class="inpucik"><input name="nick" type="text"></div>
 				<div class="inpucik"><input name="email" type="email"></div>
-				<div class="inpucik"><input name="haslo" type="password"></div>
-				<div class="inpucik"><input name="haslo2" type="password"></div>
+				<div class="inpucik"><input name="password" type="password"></div>
+				<div class="inpucik"><input name="password_confirm" type="password"></div>
+				<div class="chaptcha"><input name="agree_terms" type="checkbox"></div>
 		</div>
 	</div>
 	<?php
