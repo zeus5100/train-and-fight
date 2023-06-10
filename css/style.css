@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #151611;
+	font-family: 'Bubblegum Sans', cursive;
+	
+}
+p {
+	color: white;
+	text-align: center;
+	font-size: calc(4vw + 2vh);
+	text-transform: uppercase;
+	padding: 20px;
+}
+div {
+	width: 16vw;
+	height: 8vh;
+	text-align: center;
+	font-size: calc(1.5vw + 1.1vh);
+	left: calc(50% - 8vw);
+}
+.play {
+	border: 2px solid red;
+	bottom: 14vh;
+	line-height: 8vh;
+	transition: all 0.3s ease-in-out;
+	position: absolute;
+	border-radius: 4%;
+}
+.zarejestruj {
+	text-align: center;
+	border: 2px solid red;
+	margin: auto;
+	border-radius: 8%;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	font-size: calc(1.0vw + 0.6vh);
+}
+.play:hover,
+.zarejestruj:hover {
+	background-color: rgba(64, 64, 64, 0.7);
+	border: 2px solid #ff2222;
+}
+.play:hover > a,
+.zarejestruj:hover > a {
+	color: #00d4d4;
+}
+.login {
+	bottom: 3vh;
+	position: absolute;
+	font-size: calc(1.0vw + 0.7vh);
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+.pojemnik {
+	margin: auto;
+	width: 60vw;
+	height: 40vh;
+	transition: all 0.4s ease-in-out;
+}
+.kontener {
+	margin-left: 12.4vw;
+	width: 60vw;
+	height: 20vh;
+	transition: all 0.4s ease-in-out;
+}
+.nazwy {
+	float: left;
+	width: 50%;
+	height: auto;
+	text-transform: uppercase;
+}
+.inputy {
+	float: left;
+	width: 50%;
+	height: auto;
+	height: 10vh;
+	line-height: 10vh;
+}
+.reje {
+	text-align: right;
+	height: 10vh;
+	line-height: 10vh;
+	color: red;
+	width: 100%;
+}
+.inpucik {
+	height: 10vh;
+	text-align: left;
+	line-height: 9vh;
+	width: 100%;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+	font-size: calc(1.0vw + 0.3vh);
+	width: 20%;
+	margin-left: 2vw;
+	border: 2px solid #a65c58;
+	background-color: black;
+	padding: calc(0.4vw + 0.2vh);
+	color: #00d4d4;
+	border-radius: 4px;
+}
+input:focus {
+	outline: none;
+}
+.powrot {
+	font-size: calc(1.4vw + 1.2vh);
+}
+.powrot >a:hover {
+	color: #00d4d4;
+}
+.error {
+	 font-family: Arial, Helvetica, sans-serif;
+	 color: lightblue;
+	 font-size: calc(0.8vw + 0.3vh);
+	 width: 15vw;
+	 height: auto;
+	 margin: auto;
+	 text-align: left;
+}
+.cent {
+	text-align: center;
+}
+.smallinfo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: calc(0.4vh + 0.8vw);
+	text-transform: none;
+}
+.zapomnialem {
+	text-decoration: underline;
+}
+.emailrest {
+	width: 30vw;
+	margin-left: 34vw;
+}
+input[type="submit"] {
+	width: 12vw;
+	margin-left: 44vw;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	height: 6vh;
+	border-radius: 4px;
+	border: 2px solid red;
+	background-color: black;
+	color: white;
+	font-size: calc(1vw + 0.4vh);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+	color: #00d4d4;
+	background-color: rgba(64, 64, 64, 0.7);
+}
